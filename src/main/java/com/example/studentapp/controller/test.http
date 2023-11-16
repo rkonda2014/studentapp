@@ -1,0 +1,9 @@
+http://localhost:8083/department/getDepartments
+
+###
+
+# curl --location 'http://localhost:8083/department/getDepartments'
+GET http://localhost:8083/department/getDepartments
+
+###
+

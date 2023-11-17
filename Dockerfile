@@ -5,7 +5,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the JAR file into the container at /app
-COPY target/studentapp-0.0.1-SNAPSHOT.jar /app/studentapp-0.0.1-SNAPSHOT.jar
+COPY target/springboot-image-new.jar /app/springboot-image-new.jar
 
 # Expose the port that your application runs on
 EXPOSE 8080
